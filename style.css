@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+a{
+    border-radius: 20px;
+    width: 10%;
+}
+#go_back{
+    float: right;
+    background-color: darkorange;
+    color: black;
+}
+.heading{
+    width:100%;
+}

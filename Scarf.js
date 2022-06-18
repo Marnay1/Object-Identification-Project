@@ -3,7 +3,7 @@ function preload(){
     img= loadImage("Scarf_Rack.jpg");
 }
 function setup(){
-    canvas= createCanvas("640, 340");
+    canvas= createCanvas(640, 340);
     canvas.center();
     objectDetector= ml5.objectDetector('cocossd', modelLoaded);
     document.getElementById("status").innerHTML= "Status : Detecting Objects";

@@ -16,3 +16,7 @@ a{
 .heading{
     width:100%;
 }
+canvas{
+    margin-top: 40px;
+    border-radius: 20px;
+}
